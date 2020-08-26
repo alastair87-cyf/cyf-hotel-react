@@ -1,17 +1,18 @@
 import React from "react";
 
 const TouristInfoCard = props => (
-  <div>
-    <img src={props.card.src} alt={props.card.alt} width="100px" />
-    <p>
-      <a href={props.card.href}>{props.card.href_friendly}</a>
-    </p>
-    <p>{props.card.city}</p>
+  <div className="card">
+    <img src={props.card.src} className="card-img-top" />
+    <div className="card-body">
+      <a href={props.card.href} className="btn btn-primary">
+        {props.card.href_friendly}
+      </a>
+    </div>
   </div>
 );
 
 const TouristInfoCards = props => (
-  <div>
+  <div className="cards">
     {props.cards.map(card => (
       <TouristInfoCard card={card} />
     ))}
