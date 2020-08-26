@@ -21,13 +21,13 @@ const App = () => {
           {
             src:
               "https://www.aboutmanchester.co.uk/wp-content/uploads/2020/08/manchester-overtakes-edinburgh-as-second-most-popular-uk-tourist-destination-696x432.jpg",
-            alt: "",
+            alt: "Manchester",
             href: "www.visitmanchester.com",
             href_friendly: "visitmanchester.com"
           },
           {
             src: "https://media.timeout.com/images/100644443/image.jpg",
-            alt: "",
+            alt: "London",
             href: "www.visitlondon.com",
             href_friendly: "visitlondon.com"
           }
